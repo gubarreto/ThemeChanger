@@ -14,6 +14,7 @@
 		EC3F6F2F2D007E5D000546E7 /* ThemeChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3F6F2E2D007E5D000546E7 /* ThemeChangerTests.swift */; };
 		EC3F6F392D007E5D000546E7 /* ThemeChangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3F6F382D007E5D000546E7 /* ThemeChangerUITests.swift */; };
 		EC3F6F3B2D007E5D000546E7 /* ThemeChangerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3F6F3A2D007E5D000546E7 /* ThemeChangerUITestsLaunchTests.swift */; };
+		EC3F6F4A2D008227000546E7 /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3F6F492D008227000546E7 /* ThemeChangeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EC3F6F342D007E5D000546E7 /* ThemeChangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeChangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3F6F382D007E5D000546E7 /* ThemeChangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangerUITests.swift; sourceTree = "<group>"; };
 		EC3F6F3A2D007E5D000546E7 /* ThemeChangerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC3F6F492D008227000546E7 /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		EC3F6F1C2D007E5C000546E7 /* ThemeChanger */ = {
 			isa = PBXGroup;
 			children = (
+				EC3F6F482D008215000546E7 /* Helpers */,
 				EC3F6F1D2D007E5C000546E7 /* ThemeChangerApp.swift */,
 				EC3F6F1F2D007E5C000546E7 /* ContentView.swift */,
 				EC3F6F212D007E5C000546E7 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				EC3F6F3A2D007E5D000546E7 /* ThemeChangerUITestsLaunchTests.swift */,
 			);
 			path = ThemeChangerUITests;
+			sourceTree = "<group>";
+		};
+		EC3F6F482D008215000546E7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EC3F6F492D008227000546E7 /* ThemeChangeView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3F6F4A2D008227000546E7 /* ThemeChangeView.swift in Sources */,
 				EC3F6F202D007E5C000546E7 /* ContentView.swift in Sources */,
 				EC3F6F1E2D007E5C000546E7 /* ThemeChangerApp.swift in Sources */,
 			);
